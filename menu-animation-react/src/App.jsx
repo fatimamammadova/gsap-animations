@@ -1,4 +1,5 @@
-import { IoMenu, IoClose } from "react-icons/io5";
+import { IoClose } from "react-icons/io5";
+import { TbMenu3 } from "react-icons/tb";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
@@ -10,6 +11,7 @@ function App() {
     const tl = gsap.timeline();
     tl.to("#menu-bar", {
       right: 0,
+      left: "50%",
       duration: 0.5,
       ease: "power1.inOut",
     });
@@ -39,13 +41,13 @@ function App() {
           <h2>fatimamammadova</h2>
 
           <button type="button" ref={menuRef}>
-            <IoMenu size={35} />
+            <TbMenu3 size={35} />
           </button>
         </nav>
 
         <div id="menu-bar">
           <button type="button" ref={closeRef}>
-            <IoClose size={35} />
+            <IoClose size={40} />
           </button>
           <ul>
             <li>Home</li>
