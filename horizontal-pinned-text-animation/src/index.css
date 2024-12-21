@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Atomic+Age&family=Audiowide&family=Exo:ital,wght@0,100..900;1,100..900&family=Fruktur:ital@0;1&family=Londrina+Shadow&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Atomic+Age&family=Audiowide&family=Danfo&family=Exo:ital,wght@0,100..900;1,100..900&family=Fruktur:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Shadow&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Audiowide", serif;
+  overflow-x: hidden;
+}
+
+#black-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: #fcc737;
+  font-weight: 400;
+  font-size: 20vw;
+  display: grid;
+  place-items: center;
+  font-family: "Shrikhand", serif;
+}
+
+#black-section span {
+  display: inline-block;
+}
+
+#pinned-text {
+  background-color: #d8a6a6;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#pinned-text #pin-container span {
+  display: block;
+  height: 100%;
+  font-weight: 800;
+  font-size: 85vh;
+  font-family: "Raleway", serif;
+  line-height: 0.9;
+}
