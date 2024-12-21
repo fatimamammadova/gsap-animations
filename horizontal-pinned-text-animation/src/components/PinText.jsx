@@ -14,7 +14,7 @@ const PinText = () => {
         pin: true,
         start: "top 0%",
         end: "top -100%",
-        markers: true,
+        // markers: true,
         scrub: 2,
       },
     });
